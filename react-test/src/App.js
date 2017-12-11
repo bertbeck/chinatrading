@@ -51,16 +51,41 @@ class Login extends Component {
     );
   }
 }
+// For helpful info see: https://stackoverflow.com/questions/29725828/update-style-of-a-component-onscroll-in-react-js
+
 function handleScroll() {
   alert('here');
 }
 class App extends Component {
 
+  constructor() {
+    super();
+    this.handleScroll = this.handleScroll.bind(this);
+  }
+
+  componentDidMount(){
+    window.addEventListener('scroll', this.handleScroll);
+  }
+
+  componentWillUnmount(){
+    window.removeEventListener('scroll', this.handleScroll);
+  }
+
+  handleScroll(event) {
+    alert('here');
+    let scrollTop = event.srcElement.body.scrollTop,
+      itemTranslate = Math.min(0, scrollTop/3 - 60);
+
+    this.setState({
+      transform: itemTranslate
+    });
+  }
+
 
   render() {
     return (
       <MuiThemeProvider>
-        <div onScroll={handleScroll}>
+        <div onScroll={this.handleScroll}>
           <div className="test">
             <div
               style={{verticalAlign: 'middle', textAlign: 'center', flexBasis: 'none', margin: 'auto', width: '300px'}}>
