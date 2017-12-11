@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.test {
+    background-image:url('dolphins.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: fixed;
+    width: 100%;
+    top: 0
+}
+
+.menu {
+  white-space: nowrap;
+  overflow: hidden; text-overflow: ellipsis;
+  margin: 0px;
+  margin-left:20px;
+  margin-top:1px;
+  padding-top: 0px;
+  letter-spacing: 0px;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  height: 64px;
+  line-height: 64px;
+  flex: 1 1 0%;
+  text-align: left;
+}
+
+.text-center {
+  margin: auto;
+}
+
+.App-header {
+  background-color: transparent;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.jumbotron{
+  height: 40rem;
+  background-attachment: fixed;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: 10% 20%;
+}
+.jumbotron h2{
+  color: #fff;
+  font-weight: 500;
+}
+.jumbotron p{
+  color: #fff;
+}
+.jumbotron{
+  box-shadow: none !important;
+}
+.jumbotron-tenfins-section{
+  margin-top: 25%;
+}
+
+
