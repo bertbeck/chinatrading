@@ -61,6 +61,9 @@ class App extends Component {
   constructor() {
     super();
     this.handleScroll = this.handleScroll.bind(this);
+    this.state = {
+      scrollTop: 0
+    };
   }
 
   componentDidMount(){
@@ -72,12 +75,14 @@ class App extends Component {
   }
 
   handleScroll(event) {
-    alert('here');
-    let scrollTop = event.srcElement.body.scrollTop,
-      itemTranslate = Math.min(0, scrollTop/3 - 60);
+
+    let scrollTop = Math.max(document.body.scrollTop,document.documentElement.scrollTop);
+
+
+    //alert('scrollTop='+scrollTop);
 
     this.setState({
-      transform: itemTranslate
+      scrollTop: scrollTop
     });
   }
 
@@ -102,11 +107,11 @@ class App extends Component {
           </div>
 
           <AppBar title="Tenfins "
-                  children={<h1 className="menu">Technology Blog People Services Contact</h1>}
+                  children={<h1 style={{color: this.state.scrollTop ==0 ? "white" : "black"}} className="menu">Technology Blog People Services Contact</h1>}
                   iconElementRight={<Login/>}
-                  iconStyleLeft={{color: "white"}}
-                  titleStyle={{color: "white", flex: 'none'}}
-                  style={{position: 'fixed', top: 0, background: "transparent", color: "black"}}
+                  iconStyleLeft={{color: this.state.scrollTop ==0 ? "white" : "black"}}
+                  titleStyle={{color: this.state.scrollTop ==0 ? "white" : "black", flex: 'none'}}
+                  style={{position: 'fixed', top: 0, background: this.state.scrollTop ==0 ? "transparent" : "white", color: "black"}}
           />
 
 
