@@ -14,8 +14,8 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="708">
-              <caret line="59" column="38" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="39" />
+            <state relative-caret-position="537">
+              <caret line="87" column="67" lean-forward="true" selection-start-line="87" selection-start-column="67" selection-end-line="87" selection-end-column="67" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -139,8 +139,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2144" />
-    <option name="y" value="87" />
+    <option name="x" value="2250" />
+    <option name="y" value="123" />
     <option name="width" value="1405" />
     <option name="height" value="896" />
   </component>
@@ -304,15 +304,15 @@
       <option name="presentableId" value="Default" />
       <updated>1512847814330</updated>
       <workItem from="1512847815598" duration="13410000" />
-      <workItem from="1512968465182" duration="14936000" />
+      <workItem from="1512968465182" duration="16614000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28346000" />
+    <option name="totallyTimeSpent" value="30024000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2144" y="87" width="1405" height="896" extended-state="0" />
+    <frame x="2250" y="123" width="1405" height="896" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -476,8 +476,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="708">
-          <caret line="59" column="38" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="39" />
+        <state relative-caret-position="537">
+          <caret line="87" column="67" lean-forward="true" selection-start-line="87" selection-start-column="67" selection-end-line="87" selection-end-column="67" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
