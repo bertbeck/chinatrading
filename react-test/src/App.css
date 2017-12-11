@@ -9,11 +9,18 @@
 
 .test {
     background-image:url('dolphins.jpg');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    position: fixed;
     width: 100%;
-    top: 0
+    height:600px;
+    z-index: 999;
+    display: flex;
+    top: 0;
+}
+
+.section-header {
+  text-align: center;
+  color: rgb(34,35,36)
 }
 
 .menu {
@@ -39,7 +46,7 @@
 
 .App-header {
   background-color: transparent;
-  height: 150px;
+  height: 170px;
   padding: 20px;
   color: white;
 }
@@ -58,7 +65,7 @@
 }
 
 .jumbotron{
-  height: 40rem;
+  height: 150px;
   background-attachment: fixed;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -66,6 +73,7 @@
   background-repeat: no-repeat;
   background-color: transparent;
   background-position: 10% 20%;
+  z-index: 9000;
 }
 .jumbotron h2{
   color: #fff;

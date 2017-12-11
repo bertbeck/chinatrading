@@ -2,6 +2,7 @@
   "name": "react-test",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "http://tenfins.com/sanjay/build",
   "dependencies": {
     "material-ui": "^0.20.0",
     "react": "^16.2.0",
