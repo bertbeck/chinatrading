@@ -1,0 +1,232 @@
+.flyout {
+	display:flex;
+	flex-direction: column;
+	min-height:100vh;
+	justify-content: space-between;
+}
+
+.home-feature-box .fa {
+	font-size:6rem;
+}
+
+.home-feature-box span {
+	display: block;
+	color:#111;
+	font-weight:bold;
+	margin-top:1.5rem;
+}
+
+.example-components-list li > a {
+	display:block;
+	border-bottom:1px solid rgba(0,0,0,.15);
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.example-components-list li:last-child > a {
+	border-bottom:0;
+}
+
+.example-components-list li > a .fa {
+	color:rgba(0,0,0,.35);
+	float:right;
+}
+/********************** start ewb application **********************/
+body{
+	background-color: #fff !important;
+	line-height: 1; 
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5rem;
+	font-weight: 500;
+	color: gray;
+}
+#mainNav {
+    border-color: transparent;
+    background-color: transparent;
+}
+ #mainNav.navbar-shrink {
+    border-bottom: 1px solid rgba(33,37,41,.1);
+    background-color: #fff;
+}
+#mainNav {
+    border-bottom: 1px solid rgba(33,37,41,.1);
+    background-color: #fff;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    transition: all .2s;
+}
+ 
+ .navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+    color: #fff !important;
+    -webkit-transition: .35s;
+    transition: .35s;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.navbar.navbar-dark .breadcrumb .nav-item .nav-link:hover, .navbar.navbar-dark .navbar-nav .nav-item .nav-link:hover {
+    color: #ccc !important; 
+}
+.navbar{
+	box-shadow: none !important;
+}
+ 
+.jumbotron{
+	height: 40rem;
+	background-image:      url("//res.cloudinary.com/hrscywv4p/image/upload/c_limit,fl_lossy,h_1500,w_2000,f_auto,q_100/v1/1283149/Depositphotos_8464329_dolphins1_v2_a2kwle.jpg");
+    background-attachment: fixed; 
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-repeat: no-repeat; 
+	background-color: transparent;
+	background-position: 10% 20%;
+}
+.jumbotron h2{
+	color: #fff;
+	font-weight: 500;
+}
+.jumbotron p{
+	color: #fff;
+}
+.jumbotron{
+	box-shadow: none !important;
+}
+.jumbotron-tenfins-section{
+	margin-top: 25%;
+}
+.padding-style-page{
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+.technology h3{
+	margin-bottom: 3rem;
+	font-weight: 400 !important;
+	margin-bottom: 3rem;
+	text-align: center;
+	color: #222324;
+	font-family: 'Nunito', helvetica, sans-serif
+}
+.technology h2{
+	line-height: 1.45;
+	font-weight: 400;
+	margin-bottom: 3rem;
+	text-align: center;
+	color: #222324;
+	font-size: 1.35rem;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.technology h4{
+	line-height: 1.45;
+	font-weight: 400;
+	margin-bottom: 2.5rem;
+}
+.left-section{
+	text-align: left;
+}
+.author-style{
+	font-weight: 700;
+	text-align: left;
+	font-size: 1rem;
+	color: #40404c;
+}
+.blog-section{
+	background-color: #1c1c1c;
+	background-attachment: fixed;
+	color: #e0e0e0;
+}
+.blog-section h2{
+	font-weight: 500;
+}
+.people-section h3{
+    margin-bottom: 3rem;
+    font-weight: 400 !important;
+    margin-bottom: 3rem;
+    text-align: center;
+    color: #222324;
+    font-family: 'Nunito', helvetica, sans-serif;
+}
+.padding-style-page-video{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+.padding-style-page-video h2{
+	font-weight: 900;
+	color: #222324;
+}
+.padding-style-page-video .video-text-style{
+	font-weight: 900;
+	color: #222324;
+}
+ .services-section{
+ 	background-color: #f3f3f3;
+ }
+  .services-section h3{
+ 	background-color: #f3f3f3;
+ 	 margin-bottom: 3rem;
+    font-weight: 400 !important;
+    margin-bottom: 3rem;
+    text-align: center;
+    color: #222324;
+    font-family: 'Nunito', helvetica, sans-serif;
+ }
+ .form-inline {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-left: auto;
+    width: 70%;
+    margin-left: 25%;
+    margin-top: 3rem;
+}
+.title-subtitle-section{
+	text-align: center;
+	margin-top: 2rem;
+	margin-bottom: 3rem;
+}
+.blog-section h5{
+	margin-bottom: 2rem;
+}
+.footer-copyright{
+	background-color: #fff !important;
+	text-align: left !important;
+	color: #997 !important;
+}
+
+.indigo{
+	background-color: transparent  !important; 
+}
+footer.page-footer .footer-copyright {
+    overflow: hidden;
+    height: 50px;
+    line-height: 50px;
+    color: #222324; 
+    background-color: rgba(0,0,0,.2);
+    text-align: center;
+    font-size: .9rem;
+}
+.footer-copyright {
+    background-color: #fff !important;
+    text-align: left !important;
+    color: #997 !important;
+}
+ .footer-copyright  a{
+	color: #997 !important
+}
+address h5{
+	color: #222324;
+	font-weight: 500;
+}
+.google-maps-style{
+	width: 100%;
+    height: 25rem;
+    border: 0;
+}

@@ -5,10 +5,15 @@
   "homepage" : "http://tenfins.com/sanjay/build",
   "dependencies": {
     "material-ui": "^0.20.0",
+    "classnames": "^2.2.5",
+    "font-awesome": "^4.7.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.0.17",
-    "roboto-npm-webfont": "^1.0.1"
+    "roboto-npm-webfont": "^1.0.1",
+    "mdbootstrap": "^4.4.1",
+    "bootstrap": "4.0.0-beta"
+
   },
   "scripts": {
     "start": "react-scripts start",

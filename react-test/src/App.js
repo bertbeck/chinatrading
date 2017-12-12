@@ -10,6 +10,14 @@ import FlatButton from 'material-ui/FlatButton';
 import Toggle from 'material-ui/Toggle';
 import MoreVertIcon from 'material-ui/svg-icons/navigation/more-vert';
 import NavigationClose from 'material-ui/svg-icons/navigation/close';
+
+
+import Row from './components/Row'
+import Col from './components/Col'
+import Button from './components/Button'
+import Input from './components/Input'
+import FormInline from './components/FormInline'
+
 import Post from './components/Post'
 import Person from './components/Person'
 
