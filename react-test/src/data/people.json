@@ -1,20 +1,20 @@
 [
-    { 
-        "name": "Person Name1", 
-        "photo": "https://mdbootstrap.com/img/Photos/Horizontal/People/6-col/img%20%283%29.jpg", 
-        "role": "Web Developer", 
-        "description": "Short description 1" 
+    {
+        "name": "Bert Beckmann",
+        "photo": "http://tenfins.com/photos/bert-beckmann.jpg",
+        "role": "Mobile and Web Developer",
+        "description": "React Native and React Web Developer now working with Flutter"
     },
     { 
-        "name": "Person Name2", 
-        "photo": "https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(147).jpg", 
-        "role": "Mobile Developer", 
-        "description": "Short description 2" 
+        "name": "Paul Wells",
+        "photo": "http://tenfins.com/photos/paul-wells.jpg",
+        "role": "React Web Developer",
+        "description": "Web developer with diverse CS background"
     },
     { 
-        "name": "Person Name2", 
-        "photo": "https://mdbootstrap.com/img/Photos/Others/men.jpg", 
-        "role": "Backend Developer", 
-        "description": "Short description 3" 
+        "name": "Sanjay Prajapati",
+        "photo": "http://tenfins.com/photos/sanjay.jpg",
+        "role": "Web Developer",
+        "description": "Experienced Web Developer working in React and Bootstrap"
     }
 ]

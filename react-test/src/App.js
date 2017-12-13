@@ -1,5 +1,10 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './css/mdb.css'
+// import 'mdbootstrap/css/mdb.min.css';
+
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import AppBar from 'material-ui/AppBar';
 import MyReactComponent from './MyReactComponent';
@@ -168,9 +173,9 @@ class App extends Component {
           </div>
 
           <div className="blog-section padding-style-page">
-            <div className="container">
+            <div className="container section-header">
               <div className="title-subtitle-section">
-                <h5>The Blog</h5>
+                <h3>The Blog</h3>
                 <h2>Thoughts, musings, and ruminations.</h2>
               </div>
 
@@ -179,7 +184,7 @@ class App extends Component {
                   posts.map((post, index) => {
                     return (
                       <Col md="4" className="mb-5" key={index}>
-                        <Post title={post.title} date={post.date} text={post.title} />
+                        <Post title={post.title} date={post.date} text={post.text} />
                       </Col>
                     )
                   })
@@ -189,17 +194,9 @@ class App extends Component {
           </div>
 
           <div className="people-section padding-style-page">
-            <div className="container">
-              <div className="title-subtitle-section">
-                <h3>People</h3>
-                <h2>
-                  Success comes from People and Technology you can rely on <br />
-                  We're based in Boulder, Colorado and can assist locally or remotely <br />
-                  We've got expertise in React Native, Flutter and Backends in C#, Dart and Java <br />
-                  .
-                </h2>
-              </div>
-              {/* <div className=" padding-style-page-video">
+            <div className="container section-header">
+
+              <div className=" padding-style-page-video">
                 <div className="row">
                   <div className="col-md-7">
                     <div className="embed-responsive embed-responsive-16by9">
@@ -226,7 +223,18 @@ class App extends Component {
                     </div>
                   </div>
                 </div>
-              </div> */}
+              </div>
+
+              <div className="title-subtitle-section">
+                <br/>
+                <h3>People</h3>
+                <h2>
+                  Success comes from People and Technology you can rely on <br />
+                  We're based in Boulder, Colorado and can assist locally or remotely <br />
+                  We've got expertise in React Native, Flutter and Backends in C#, Dart and Java <br />
+                  .
+                </h2>
+              </div>
 
               {
                 <Row>
@@ -245,7 +253,7 @@ class App extends Component {
           </div>
 
           <div className="services-section padding-style-page">
-            <div className="container">
+            <div className="container section-header">
               <div className="title-subtitle-section">
                 <h3>Services</h3>
                 <h2>Contact us for Mobile and Web Development</h2>
@@ -259,7 +267,7 @@ class App extends Component {
           </div>
 
           <div className="contact-section padding-style-page">
-            <div className="container">
+            <div className="container section-header">
               <div className="row">
                 <div className="col-md-6">
                   <h5>Got Questions? </h5>
@@ -281,7 +289,7 @@ class App extends Component {
           </div>
 
           <div className="about-us-contact-section padding-style-page">
-            <div className="container">
+            <div className="container section-header">
               <div className="row">
                 <div className="col-md-2">
                   <address>
@@ -308,8 +316,6 @@ class App extends Component {
             </div>
           </div>
 
-
-          <MyReactComponent/>
         </div>
       </MuiThemeProvider>
 

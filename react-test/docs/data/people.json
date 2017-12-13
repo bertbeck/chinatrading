@@ -1,8 +1,8 @@
 [
     { 
-        "name": "Person Name1", 
-        "photo": "https://mdbootstrap.com/img/Photos/Horizontal/People/6-col/img%20%283%29.jpg", 
-        "role": "Web Developer", 
+        "name": "Bert Beckmann",
+        "photo": "img/bert.png",
+        "role": "Mobile and Web Developer",
         "description": "Short description 1" 
     },
     { 
