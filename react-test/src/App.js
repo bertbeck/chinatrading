@@ -309,7 +309,7 @@ class App extends Component {
                   <address>
                     <strong> <h5>Contact</h5></strong>
                     <h6>720-354-2372</h6>
-                    <h6>bertbeck@gmail.com</h6>
+                    <h6>info@tenfins.com</h6>
                   </address>
                 </div>
               </div>
