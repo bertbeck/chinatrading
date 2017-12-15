@@ -31,6 +31,7 @@ import people from './data/people.json'
 import YouTube from './youtube'
 
 import './App.css';
+import YouTubePlayer from "./components/YouTubePlayer";
 
 const RightMenu = (props) => (
   <IconMenu
@@ -192,6 +193,9 @@ class App extends Component {
               </Row>
             </div>
           </div>
+
+          <YouTubePlayer/>
+          <YouTubePlayer/>
 
           <div className="people-section padding-style-page">
             <div className="container section-header">
