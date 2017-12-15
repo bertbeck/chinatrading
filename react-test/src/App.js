@@ -163,12 +163,30 @@ class App extends Component {
                     </div>
                   </div>
                 </div>
+
+                <div className=" padding-style-page-video">
+                  <div className="row">
+                    <div className="col-md-7">
+                      <div className="embed-responsive embed-responsive-16by9">
+                        <YouTube video="1BXg4wfB9pA" autoplay="0" rel="0" modest="1" width="600"/>                      </div>
+                    </div>
+                    <div className="col-md-5">
+                      <h2>React Native</h2>
+                      <p className="video-text-style">Scaling to 80 Million Users </p>
+                      <p>HERE!!! React Native is making inroads into <br /> mainstream Mobile cross platform <br /> development. </p>
+                    </div>
+                  </div>
+                </div>
+
                 <div className="col-md-8">
                   <div className="embed-responsive embed-responsive-16by9">
                     <YouTube video="1BXg4wfB9pA" autoplay="0" rel="0" modest="1" width="600"/>
                   </div>
 
                 </div>
+
+
+
               </div>
             </div>
           </div>
