@@ -13,7 +13,6 @@ const Post = (props) => {
                 <CardTitle>
                     <strong>{ props.name }</strong>
                 </CardTitle>
-
                 <CardText className="big-screen">
                     { props.description2 }
                 </CardText>
