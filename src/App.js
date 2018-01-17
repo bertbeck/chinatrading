@@ -193,7 +193,7 @@ class App extends Component {
                     people.map((person, index) => {
                       return (
                         <Col md="4" className="mb-5" key={index}>
-                          <PersonDescription name={person.name} description2={person.description2} />
+                          <PersonDescription name={person.name} description2={person.description2} descriptionShort={person.descriptionShort} />
                         </Col>
                       )
                     })
@@ -316,7 +316,9 @@ class App extends Component {
                       people.map((person, index) => {
                         return (
                           <Col md="4" className="mb-5" key={index}>
-                            <PersonDescription name={person.name} description2={person.description2} />
+                            <PersonDescription name={person.name} description2={person.description2} 
+                            descriptionShort={person.descriptionShort}
+                            />
                           </Col>
                         )
                       })

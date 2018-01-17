@@ -1,0 +1,19 @@
+
+@media (max-width: 767px){
+.small-screen{
+    width: 100%;
+    display: block !important;
+   }
+   .big-screen{
+    display: none !important;
+    }
+}
+@media (min-width: 768px){
+.small-screen{
+    display: none !important;
+   }
+   .big-screen{
+    width: 100%;
+    display: block !important;
+    }
+}

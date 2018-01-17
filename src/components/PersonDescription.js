@@ -5,7 +5,7 @@ import CardTitle from '../components/CardTitle'
 import CardBody from '../components/CardBody'
 import CardText from '../components/CardText'
 import Button from '../components/Button'
-
+require("./responsive.css");
 const Post = (props) => {
     return (        
         <Card className="card-cascade">
@@ -14,8 +14,11 @@ const Post = (props) => {
                     <strong>{ props.name }</strong>
                 </CardTitle>
 
-                <CardText>
+                <CardText className="big-screen">
                     { props.description2 }
+                </CardText>
+                <CardText className="small-screen">
+                    { props.descriptionShort }
                 </CardText>
             </CardBody>            
         </Card>        
