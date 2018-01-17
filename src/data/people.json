@@ -1,0 +1,24 @@
+[
+
+    { 
+        "name": "Mark Towne",
+        "photo": "http://tenfins.com/photos/mark-towne.jpg",
+        "role": "China Business Development",
+        "description": "In Shanghai, advising Chinese and Western Business",
+        "description2": "60 y.o. US citizen, 35 yrs. in business, living in Shanghai. Chinese government licensed consultant. Expert in China e-commerce, all consumer items, food, alcohol, POD products. Marketing with WeChat, TaoBao, JD and social media. Set you up or help you set yourself up. Introductions and Quality Control. mtowne@gmail.com, Mark Towne Qiao Qiao International Trading/Consulting Shanghai Ltd."
+    },
+    {
+        "name": "Bert Beckmann",
+        "photo": "http://tenfins.com/photos/bert-beckmann.jpg",
+        "role": "Technology Consultant",
+        "description": "Web/Mobile/Firmware Development, Offshore Management",
+        "description2": "Over 20 years in Web and Mobile development, managing offshore development and creating custom solutions. Expert in React Native, React JS, C/C++, Agile development proccesses, team building and management. Currently working with China sourced h.264 IP Camera technology and firmware"
+    },
+    { 
+        "name": "Sanjay Prajapati",
+        "photo": "http://tenfins.com/photos/sanjay.jpg",
+        "role": "Web Developer",
+        "description": "Experienced Web Developer working in React and Bootstrap",
+        "description2": "Offshore Web developer, Experienced Web developer working in React and Bootstrap, very fast development using Agile process and client communication"
+    }
+]
